@@ -198,3 +198,39 @@ ul.custom-nav > li > a > i{
         width:100%;
     }
 }
+div.fav-playlist{
+    padding:0;
+    margin-top:18%;
+    background-color:#2c2f33;
+    box-shadow: 1px 1px 1px 1px #2c2f33;
+}
+div.fav-playlist h4{
+    background-color:#f4f3ef;
+    text-align: center;
+    color:#23272a;
+}
+div.fav-playlist ul{
+    list-style-type: none;
+    padding: 0px;
+}
+div.fav-playlist ul li{
+    padding:10px 0 10px 10px;
+    border-bottom: 1px solid #99aab5;
+}
+div.fav-playlist a {
+    color: #fff;
+    text-decoration: none;
+    cursor:pointer;
+    outline:none;
+    display: block;
+}
+div.fav-playlist li:hover {
+    color:#fff!important;
+    background: #B0DED5 !important; /*#7CC9B*/A
+}
+div.fav-playlist li.fav-playlist-current {
+    list-style-position: inside;
+    background-color: #45b39d;
+}
+
+
